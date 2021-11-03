@@ -55,9 +55,9 @@ if ($free === true) {
 
 ### Exercice n°5
 
-A l'aide d'une condition que vous allez placer à l'intérieur des accolades, affichez le nombre de fois qu'il y a de `true` dans le tableau `values`.
+A l'aide d'une condition que vous allez placer à l'intérieur des accolades, affichez le nombre de fois qu'il y a de `true` dans le tableau `$values`.
 
-Pour info, ce code intègre deux notions non vues en cours, les `tableaux` plus les `conditions`
+:warning: Pour info, ce code intègre deux notions non vues en cours, les `tableaux` + `conditions`
 
 ```php
 $values = [true, false, true, true, false, false, true];
