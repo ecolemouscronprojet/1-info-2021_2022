@@ -3,7 +3,7 @@ Créez un fichier exercice-1.php (Adresse pour vous y rendre http://127.0.0.1:88
 
 ## Exercice 1
 
-Utilisez une condition pour soit afficher à l'écran le nom + prénom ou simplement le prénom de la personne.
+Utilisez une condition pour soit imprimer à l'écran le **nom + prénom** ou simplement le **prénom** de la personne.
 
 Aidez vous de la variable `$fullName`, si elle est vraie **nom + prénom** sinon juste le **prénom**
 
