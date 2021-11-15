@@ -36,7 +36,7 @@ $marques = ['peugeot', 'citroen'];
 
 ### Exercice n°4
 
-Trouvez sur internet la fonction qui permet de supprimer un élement d'un tableau et supprimez le 3ème élément du tableau + imprimez le tableau modifié à l'aide d'une fonction de debug 
+Trouvez sur internet la fonction qui permet de supprimer un élement du tableau et supprimez le 3ème élément du tableau + utilisez une fonction de debug pour imprimer le résultat à l'écran
 
 ```php
 $meubles = ['table', 'bibliothèque', 'armoire', 'dressing'];
@@ -47,7 +47,7 @@ $meubles = ['table', 'bibliothèque', 'armoire', 'dressing'];
 
  ### Exercice n°5
 
-Remplacer la propriété **nom** du tableau qui est **dupon** par **dupont** et utilisez une fonction de debug pour afficher le résultat à l'écran
+Remplacer la propriété **nom** du tableau qui est **dupon** par **dupont** et utilisez une fonction de debug pour imprimer le résultat à l'écran
 
 
 ```php
@@ -90,7 +90,7 @@ $personne = [
 
 ### Exercice n°7
 
-Pourquoi quand j'imprime le contenu du tableau grâce à une fonction de debug, je n'ai que deux valeurs à l'intérieur ?
+Pourquoi quand j'imprime le contenu du tableau grâce à une fonction de debug, mon tableau ne contient que deux élements ?
 
 ```php
 $monTableau = [];

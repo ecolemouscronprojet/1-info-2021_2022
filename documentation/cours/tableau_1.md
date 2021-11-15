@@ -27,7 +27,7 @@ Grâce à la création de deux tableaux, nous aurions la possibilité de regroup
 | Banane        | Pomme de terre|
 | Orange        |               |
 
-Si le tableau avait été plus complet en y placant également le prix de chaque produit
+Si le tableau avait été plus complet en y placant également le prix de chaque produit, nous aurions pu savoir rapidement dans quelle catégorie nous avons le plus dépensé.
 
 ### Exemple n°2
 
@@ -40,7 +40,6 @@ Un utilisateur souhaite s'enregistrer en ligne sur un site web, durant son inscr
 
 
 Toutes ces informations sont réliées entre elle car elles appartiennent à un même individu, donc le type de donnée le plus approprié pour stocker ces informations est le tableau.
-
 
 
 ## Déclaration d'un tableau
@@ -67,11 +66,9 @@ $tableau2 = ['maison', 'voiture'];
 ```
 
 
-
-
 ## Ajouter des élements dans un tableau
 
-Pour ajouter des élements dans un tableau, deux possibilités:
+Pour ajouter des élements dans un tableau existant, deux possibilités:
 
 - Utiliser la fonction [array_push](https://www.php.net/manual/en/function.array-push.php)
 - Utiliser des crochets
@@ -101,7 +98,7 @@ Array
 **valeur1** et **valeur2** correspondent à la **valeur** 
 
 
-:information_desk_person: Les éléments dans un tableau sont ordonnées par ordre d'ajout dans le tableau, le dernier élément ajouté se placera à la fin du tableau
+:information_desk_person: Les éléments dans un tableau sont ordonnés par ordre d'ajout dans le tableau, le dernier élément ajouté se placera toujours à la fin du tableau.
 
 
 ## Tableau indexé et tableau associatif
@@ -122,7 +119,7 @@ $prenoms[] = 'David';
 $prenoms[] = 'Robert';
 ```
 
-le résultat, chaque clé est sous forme numérique, le **0** est la clé pour accéder à la valeur **Maurice**
+le résultat
 
 ```
 Array
@@ -133,9 +130,11 @@ Array
 )
 ```
 
+Chaque clé est sous forme numérique, le **0** est la clé pour accéder à la valeur **Maurice**
+
 ### Tableau associatif
 
-Un tableau indexé est un tableau où ses clés sont sous la forme de chaîne de caractère.
+Un tableau associatif est un tableau où les clés sont sous la forme de chaîne de caractère.
 
 *Exemple*
 
@@ -161,8 +160,66 @@ Array
 ```
 
 
+## Tableau multidimensionnel
+
+Un tableau multidimensionnel est un tableau qui contient lui même un/des tableaux, exemple:
+
+Exemple 1, le tableau `$utilisateur` contient une propriété `adresse` qui contient elle même un tableau avec une adresse
+```php
+    $utilisateur  = [
+        'nom' => 'Dupon',
+        'prenom' => 'Maurice',
+        'adresse' => [
+                'rue' => 'Rue du développement',
+                'numero' => 18,
+        ]
+    ];
+```
+
+Exemple 2, le tableau `$utilisateur` contient une propriété `adresses` qui contient elle même un tableau de plusieurs adresses
+```php
+    $utilisateur  = [
+        'nom' => 'Dupon',
+        'prenom' => 'Maurice',
+        'adresses' => [
+            [
+                'rue' => 'Rue de l\'analyse',
+                'numero' => 18,
+            ]
+            [
+                'rue' => 'Rue du développement',
+                'numero' => 20,
+            ]
+        ]
+    ];
+```
+
+
 
 ## Remplacer des données dans un tableau
+
+Ici, un tableau multidimensionnel, 
+
+```php
+    $utilisateur  = [
+        'nom' => 'Dupon',
+        'prenom' => 'Maurice',
+        'adresses' => [
+            [
+                'rue' => 'Rue de l\'analyse',
+                'numero' => 18,
+            ]
+            [
+                'rue' => 'Rue du développement',
+                'numero' => 20,
+            ]
+        ]
+    ];
+
+    // Afficher le nom
+    echo $utilisateur['nom'];
+    echo $utilisateur['adresses'][0]['rue'];
+```
 
 
 ## Que peut-on enregistrer dans un tableau
