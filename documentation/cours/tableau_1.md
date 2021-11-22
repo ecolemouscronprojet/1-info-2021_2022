@@ -185,7 +185,7 @@ Exemple 2, le tableau `$utilisateur` contient une propriété `adresses` qui con
             [
                 'rue' => 'Rue de l\'analyse',
                 'numero' => 18,
-            ]
+            ],
             [
                 'rue' => 'Rue du développement',
                 'numero' => 20,
@@ -195,10 +195,9 @@ Exemple 2, le tableau `$utilisateur` contient une propriété `adresses` qui con
 ```
 
 
-
 ## Remplacer des données dans un tableau
 
-Ici, un tableau multidimensionnel, 
+Ici, un tableau multidimensionnel, dans lequel nous allons remplacer le nom et la rue de la première adresse
 
 ```php
     $utilisateur  = [
@@ -208,7 +207,7 @@ Ici, un tableau multidimensionnel,
             [
                 'rue' => 'Rue de l\'analyse',
                 'numero' => 18,
-            ]
+            ],
             [
                 'rue' => 'Rue du développement',
                 'numero' => 20,
@@ -216,10 +215,52 @@ Ici, un tableau multidimensionnel,
         ]
     ];
 
-    // Afficher le nom
-    echo $utilisateur['nom'];
-    echo $utilisateur['adresses'][0]['rue'];
+    // Remplacer le nom
+    $utilisateur['nom'] = 'Dujardin';
+    // Remplacer la rue de la première adresse
+    $utilisateur['adresses'][0]['rue'] = 'chemin du développement';
 ```
+ Pour naviguer dans un tableau et se rendre dans une propriété pour la modifier où la supprimer, je vous invite dans un premier temps d'utiliser la fonction de debug `print_r` ou `var_dump` et naviguer au fur et à mesure dans le tableau pour arriver au bon endroit.
+
+Exemple pour l'adresse, je souhaite accéder au numéro:
+
+```php
+echo '<pre>';
+print_r($utilisateur);
+
+```
+
+Résultat
+
+```php
+Array
+(
+    [nom] => Dupon
+    [prenom] => Maurice
+    [adresses] => Array
+        (
+            [0] => Array
+                (
+                    [rue] => Rue de l'analyse
+                    [numero] => 18
+                )
+
+            [1] => Array
+                (
+                    [rue] => Rue du développement
+                    [numero] => 20
+                )
+
+        )
+
+)
+
+```
+
+Ce que l'on souhaite
+
+
+
 
 
 ## Que peut-on enregistrer dans un tableau
