@@ -7,6 +7,14 @@ Créez le fichier **exercices_boucle.php** et réalisez les exercices suivants:
 
 à l'aide de la boucle `while`, affichez 10 fois votre prénom.
 
+```php
+$i=0;
+while($i<10) {
+    $i++;
+    echo 'Samuel';
+}
+```
+
 
 ### Exercice n°2
 
@@ -16,12 +24,24 @@ Créez le fichier **exercices_boucle.php** et réalisez les exercices suivants:
 
 ### Exercice n°3
 
-à l'aide de la boucle `while` listez les nombres divisibles par 3
+à l'aide de la boucle `while` listez les nombres divisibles par 3 
 
+```php
+ $i = 0 ;
+ while ($i < 99) {
+     $i += 3; // $i = $i + 3;
+     echo $i .'<br>';
+ }
 
-### Exercice n°3
-
-à l'aide de la boucle `while` listez les nombres divisibles par 3
+ // SECONDE
+  $i = 0 ;
+ while ($i < 99) {
+     $i++
+     if($i % 3 == 0) {
+         echo $i;
+     }
+ }
+```
 
 
 ### Exercice n°4
@@ -36,9 +56,9 @@ $prenoms = [
     'marc',
     'patrice',
     ];
-
-
 ```
+
+### Exercice n°5
 
 
 
