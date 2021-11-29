@@ -36,7 +36,7 @@ while($i<10) {
  // SECONDE
   $i = 0 ;
  while ($i < 99) {
-     $i++
+     $i++;
      if($i % 3 == 0) {
          echo $i;
      }
@@ -56,9 +56,46 @@ $prenoms = [
     'marc',
     'patrice',
     ];
+
+foreach($prenoms as $prenom){
+    echo $prenom . '<br>';
+}
+
 ```
 
 ### Exercice n°5
+
+ à l'aide de la boucle **for** affichez moi la table de multiplication de 5
+
+```php
+$e = 10;
+for($i=1;$i<=10; $i++) {
+    echo $i ." X $e =".( $i * $e ).'<br>';
+}
+```
+
+### Exercice n°6
+
+
+```php
+$prenoms = [
+    'maurice',
+    'roger',
+    'andrew',
+    'marc',
+    'patrice',
+    'albert',
+    ];
+
+ foreach($prenoms as $key => $prenom) {
+     if($key %2 == 0) {
+         echo $prenom.'<br>';
+     }
+ }   
+
+
+```
+
 
 
 
