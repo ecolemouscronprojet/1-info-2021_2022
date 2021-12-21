@@ -73,7 +73,7 @@ echo 2 / 5; // résultat 0.4
 ```
 
 
-## modulo
+## Modulo
 
 Le modulo permet de retourner le reste d'une division
 
@@ -93,6 +93,42 @@ echo 8 / 5; // résultat 3
 ```
 
 :information_desk_person: Les opérations précédentes en aucun cas sont venus altérer le contenu de chaque variable
+
+# Opérateur arithmétique modifiant la valeur d'une variable
+
+Ici nous effectuons des opérations qui vont réellement modifier la valeur des variables
+
+
+Version longue
+```php
+// ADDITION
+$nb1 = 10;
+$nb1 = $nb1 + 5;
+
+echo $nb1; // résultat 15
+
+// SOUSTRACTION
+$nb2 = 10;
+$nb2 = $nb2 - 5;
+
+echo $nb2; // résultat 5
+.
+```
+Version courte
+```php
+// ADDITION
+$nb1 = 10;
+$nb1 += 5;
+
+echo $nb1; // résultat 15
+
+// SOUSTRACTION
+$nb2 = 10;
+$nb2 -= 5;
+
+echo $nb2; // résultat 5
+.
+```
 
 
 
