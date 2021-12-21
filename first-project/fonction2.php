@@ -29,11 +29,11 @@ function calcul(int $nb1, int $nb2, string $operator)
 
 function calcul2(int $nb1, int $nb2, string $operator)
 {
-    echo eval("$nb1 $operator $nb2");
-    return 'yoo';
+    echo eval('$test = '.$nb1 . $operator . $nb2.';');
+    return $test;
 }
 
-echo calcul2(100, 2, '*');
+echo calcul2(100, 2, '+');
 exit;
 
 //fonction addition 

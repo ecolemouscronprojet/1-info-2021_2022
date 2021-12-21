@@ -2,7 +2,7 @@
 
 ## Utilité
 
-Les boucles permettent de répéter des instructions tant que la condition ou les conditions sont respectées.
+Les boucles permettent de répéter des instructions tant que la/les conditions sont respectées.
 
 ## Comportement
 

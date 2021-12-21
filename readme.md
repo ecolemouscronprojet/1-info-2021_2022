@@ -2,9 +2,20 @@
 
 ## Cours
 
+, création de variables, affectation de variables, les types primitifs de variables …
+
  1. [Installation de l'environnement de travail](documentation/cours/1.md)
 
- 2. [Commentaires, création de variables, affectation de variables, les types primitifs de variables …](documentation/cours/2.md)
+ 2. [Ma première page, imprimez une instruction à l'écran](documentation/cours/ma_premiere_page.md)
+
+ 3. [Commentaires](documentation/cours/commentaires.md)
+
+ 4. [les variables](documentation/cours/variables.md)
+
+ 5. [Concaténation](documentation/cours/concatenation.md)
+
+
+ 6. [Opérateurs arithmétiques](documentation/cours/operateurs_arithmetiques.md)
 
  3. [Concaténations, additions, soustractions, multiplications, divisions et modulo](documentation/cours/3.md)
 
