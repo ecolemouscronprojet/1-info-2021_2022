@@ -93,7 +93,7 @@ if($civilite == 'monsieur') { // si c'est un monsieur
 Dernière instruction à connaitre est le `else if` ou `elseif` (en PHP les deux syntaxes sont autorisées), elle a le même comportement que `if`, elle attend qu'on lui passe en paramètre une/des expressions.
 
 
-:exclamation: Important: elle doit toujours se placer à la suite d'un `if` et avant un `else`
+:exclamation: Important: elle doit toujours se placer à la suite d'un `if` et avant un `else` (s'il y a un else)
 
 
 Exemple
@@ -113,7 +113,7 @@ if ($civilite == 'monsieur') {
 
 ## L'ordre des instructions
 
-Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, ensuite vous enchainez avec des instructions optionnelles `elseif` ou `else`, par contre vous devez respecter l'ordre, `elseif` sera toujours situé entre le `if` et le `else`
+Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, ensuite vous enchainez avec les instructions optionnelles `elseif` ou `else`, par contre vous devez respecter l'ordre, `elseif` sera toujours situé entre le `if` et le `else`
 
  - `if` (obligatoire)
  - `else if`(optionel)
