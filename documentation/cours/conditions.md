@@ -28,7 +28,7 @@ A sa première connexion, une popup s'affiche pour lui poser la question, en fon
 - s'il est majeur on lui affiche le site
 - s'il n'est pas majeur on le redirige vers le site précédent
 
-Même principe que pour l'exemple précédent, ces deux instructions vont se trouver dans le code, mais une seule des deux sera executé en fonction de la réponse que l'utilisateur aura indiquée.
+Même principe que pour l'exemple précédent, ces deux instructions vont se trouver dans le code, mais une seule des deux sera executée en fonction de la réponse que l'utilisateur aura indiquée.
 
 
 ## Comment ça fonctionne
