@@ -158,6 +158,24 @@ $nb1 <= 4; // renvoie false
 
 :warning: l'exemple précédent va retourner un booléan, mais ne va pas imprimer le résultat à l'écran car on ne lui dit pas de le faire.
 
+Exemple avec des conditions
+
+```php
+
+$age = 26;
+if($age >= 18) { // l'expression renvoie true, la condition est respectée
+    echo 'vous êtes majeur';
+}
+
+
+if($age === 26) { // l'expression renvoie true, la condition est 
+    echo 'vous avez 26 ans';
+} else {
+    echo 'je ne connais pas votre age';
+}
+
+```
+
 
 
 ## Opérateur ternaire
