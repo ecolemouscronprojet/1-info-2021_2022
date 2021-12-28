@@ -45,7 +45,7 @@ Dans l'exemple ci-dessous **la condition** n'est pas respectée ce qui implique 
 
 ## L'instruction IF
 
-La première instruction à connaitre quand on écrit des conditions est le `if` qui signifie **si**, cette instruction attend à l'intérieur une expression qui doit retourner soit `true` ou `false`
+La première instruction à connaitre est le `if` qui signifie **si**, cette instruction prend en paramètre une/des expression(s) qui vont retourner une valeur égale à `true` ou `false`
 
 Exemple
 
@@ -63,33 +63,33 @@ if (false) {
 
 :warning: Attention
 
- - les parenthèses **( )** juste après le `if` sont obligatoires, c'est à l'intérieur de celles-ci que l'on va placer le ou les expressions qui vont indiquer si la condition est vraie ou false (`true` ou `false`)
- - Les accolades **{ }** ouvrantes et fermantes vont englober le code qui sera executé sous conditions, elles ne sont pas obligatoire mais fortement recommandée. Si vous n'ajoutez pas d'accolades, une seule instruction sera associé à la condition.
+ - les parenthèses **( )** juste après le `if` sont obligatoires, c'est à l'intérieur de celles-ci que l'on va placer le ou les expressions qui vont indiquer si la condition est vraie ou fausse (`true` ou `false`)
+ - Les accolades **{ }** ouvrantes et fermantes vont englober le code qui sera executé sous conditions, elles ne sont pas obligatoire mais fortement recommandée. Si vous n'ajoutez pas d'accolades, une seule instruction sera associée à la condition et celles qui suivent seront considérées comme étant à l'extérieur.
 
 
 
-## Condition PHP: ELSE
+## L'instruction ELSE
 
-La seconde instruction à connaitre est le `else` qui signifie **sinon**, comparé au `if` lui n'attend pas qu'on lui passe une expression qui renvoie `true` ou `false`.
+La seconde instruction à connaitre est le `else` qui signifie **sinon**, comparé au `if` elle n'attend pas qu'on lui passe une expression en paramètre.
 
-:exclamation: Important: elle doit toujours se placer à la suite d'un `if` car ça n'a pas de sens de l'utiliser seul et que vous allez provoquer une erreur
+:exclamation: Important: elle doit toujours se placer à la suite d'un `if` car ça n'aurait aucun sens de l'utiliser sans
 
 Exemple
 
 ```php
 $civilite = 'monsieur';
 
-if($civilite == 'monsieur') {
+if($civilite == 'monsieur') { // si c'est un monsieur
     echo 'Bonjour monsieur';
-} else {
+} else { // si c'est autre chose qu'un monsieur
     echo 'Bonjour madame';
 }
 ```
 
 
-## Condition PHP: ELSE IF
+## L'instruction ELSE IF
 
-Dernière condition à connaitre est le `else if` ou `elseif`(en PHP les deux syntaxes sont autorisées), elle a le même comportement que `if`, elle attend l'utilisation d'une expression.
+Dernière condition à connaitre est le `else if` ou `elseif` (en PHP les deux syntaxes sont autorisées), elle a le même comportement que `if`, elle attend qu'on lui passe en paramètre une/des expressions.
 
 
 :exclamation: Important: elle doit toujours se placer à la suite d'un `if` et avant un `else`
@@ -110,15 +110,15 @@ if ($civilite == 'monsieur') {
 ```
 
 
-## Ordre des instructions
+## L'ordre des instructions
 
-Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, ensuite vous enchainez avec des instructions optionnelles `elseif` et `else`, par contre vous devez respecter l'ordre, `elseif` si vous l'utilisez devra toujours se placer entre le `if` et le `else`.
+Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, ensuite vous enchainez avec des instructions optionnelles `elseif` ou `else`, par contre vous devez respecter l'ordre, `elseif` sera toujours situé entre le `if` et le `else`
 
- - `if`
- - `else if`
- - `else`
+ - `if` (obligatoire)
+ - `else if`(optionel)
+ - `else`(optionel)
 
- Qans vous écrivez un bloc contenant une codition, vous ne pouvez avoir qu'une seule fois le `if` et le `else` et plusieurs fois le `elseif`. Si le cas se présente, il est peut être possible d'utiliser un `switch`
+ Qans vous écrivez un bloc contenant une condition, vous ne pouvez avoir qu'une seule fois le `if` et le `else` par contre le `elseif` peut être présent plusieurs fois, si c'est le cas, vous pouvez remplacer la condition par un `switch`
 
 
  ## Expression à l'intérieur d'une condition
@@ -155,21 +155,30 @@ $maVariable == 10.5; // renvoie false
 
 
 
+## Opérateur ternaire
+
+Vous avez la possibilité de créer une condition sur une seule ligne, on appelle cela **un opérateur ternaire**
+
+**CONDITION** ? **CODE EXECUTE SI VRAI** : **CODE EXECUTE SI FAUX**
+
+Exemple
+
+
+```php
+$age = 20;
+
+echo $age >= 18 ? 'Majeur' : 'Mineur';
+
+```
 
 
 
 
+// false 0 null
 
-// OPERATEUR TERNAIRE
-
-
-
-
-Une condition englobe un ensemble d'instructions de 1 à X, si à l'intérieur d'une condition aucune instruction n'est placée cela veut dire qu'il y a un souci de conception dans le code.
+// true, string …, float, int, 1
 
 
-
-# Les conditions
 
 
 # EXERCICES
