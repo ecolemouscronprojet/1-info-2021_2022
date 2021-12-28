@@ -2,7 +2,7 @@
 
 Les conditions vont vous permettre d'executer ou non un bloc d'instruction(s).
 
-Si la condition est vraie on execute le code se trouvant à l'intérieur de celle-ci, si pas ce code en question sera ignoré et on passera aux instructions suivantes.
+Si la condition est vraie on execute le code se trouvant à l'intérieur de celle-ci, si pas, ce code en question sera ignoré et on passera aux instructions suivantes.
 
 
 ## Cas d'utilisation dans une application
