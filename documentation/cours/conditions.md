@@ -1,7 +1,7 @@
 # Les conditions
 
 Les conditions sont des instructions qui vont vous permettre d'executer ou non un bloc d'instruction(s).
-Si la condition est remplie on execute le code, sinon on exclue le bloc de la condition.
+Si la condition est vraie on execute le code, sinon passe à la suite sans executer les instructions se trouvant à l'intérieur du bloc
 
 
 ## Cas d'utilisation dans une application
