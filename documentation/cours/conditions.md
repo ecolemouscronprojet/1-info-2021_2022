@@ -90,7 +90,7 @@ if($civilite == 'monsieur') { // si c'est un monsieur
 
 ## L'instruction ELSE IF
 
-Dernière condition à connaitre est le `else if` ou `elseif` (en PHP les deux syntaxes sont autorisées), elle a le même comportement que `if`, elle attend qu'on lui passe en paramètre une/des expressions.
+Dernière instruction à connaitre est le `else if` ou `elseif` (en PHP les deux syntaxes sont autorisées), elle a le même comportement que `if`, elle attend qu'on lui passe en paramètre une/des expressions.
 
 
 :exclamation: Important: elle doit toujours se placer à la suite d'un `if` et avant un `else`
