@@ -124,7 +124,7 @@ Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, 
 
  ## Les expressions à l'intérieur des conditions
 
-A l'intérieur d'une condition `if` ou `else if` on attend une expression qui renvoie soit `true` ou `false`, dans les exemples précédents nous avons directement indiqué la valeur `true` ou `false` par souci de facilité, mais cela ne doit jamais arriver car cela ne rend pas le code dynamique (un vrai sera toujours vrai…).
+A l'intérieur d'une condition `if` ou `else if` on attend une expression qui renvoie soit `true` ou `false`, dans les exemples précédents nous avons directement indiqué la valeur `true` ou `false` par souci de facilité, mais cela ne doit jamais arriver car cela ne rend pas le code dynamique (un vrai sera toujours vrai et un faux sera toujours faux).
 
 Quand on ajoute une expression dans une condition on va venir en général comparer deux informations, voir même plusieurs informations (voir **Opérateurs logiques**)
 
