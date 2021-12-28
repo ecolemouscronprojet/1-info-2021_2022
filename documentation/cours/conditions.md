@@ -65,7 +65,7 @@ if (false) {
 :warning: Attention
 
  - les parenthèses **( )** juste après le `if` sont obligatoires, c'est à l'intérieur de celles-ci que l'on va placer le ou les expressions qui vont indiquer si la condition est vraie ou fausse (`true` ou `false`)
- - Les accolades **{ }** ouvrantes et fermantes vont englober le code qui sera executé sous conditions, elles ne sont pas obligatoire mais fortement recommandée. Si vous n'ajoutez pas d'accolades, une seule instruction sera associée à la condition et celles qui suivent seront considérées comme étant à l'extérieur.
+ - Les accolades **{ }** ouvrantes et fermantes vont englober le code qui sera executé sous conditions, elles ne sont pas obligatoire mais fortement recommandée. Si vous n'ajoutez pas d'accolades, seule la première instruction sera considérée comme étant dans la condition.
 
 
 
