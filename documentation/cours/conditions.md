@@ -159,7 +159,7 @@ $nb1 > 10; // renvoie true
 $nb1 <= 4; // renvoie false
 ```
 
-:warning: l'exemple précédent va retourner un booléan, mais ne va pas imprimer le résultat à l'écran car on ne lui dit pas de le faire.
+:warning: l'exemple précédent va retourner un booléan, mais ne va pas imprimer le résultat à l'écran car on ne le lui demande pas.
 
 Exemple avec des conditions
 
