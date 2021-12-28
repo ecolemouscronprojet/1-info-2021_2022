@@ -1,19 +1,23 @@
 # Les conditions
 
-Les conditions sont des instructions qui vont vous permettre d'executer des bouts de code sous reserve que la condition qui les englobe soit vraie.
+Les conditions sont des instructions qui vont vous permettre d'executer ou non un bloc d'instruction(s).
+Si la condition est remplie on execute le code, sinon on exclue le bloc de la condition.
 
 
-## Exemples d'utilisation dans une application
+## Cas d'utilisation dans une application
 
 ### Exemple 1
 
-Une personne arrive sur mon site web, en fonction de l'heure à laquelle il se connecte, je souhaite lui afficher le bon message
+Une personne arrive sur mon site web, en fonction de l'heure à laquelle il se connecte, je souhaite lui afficher un message dynamique pour le saluer de la meilleure des façons 
 
-- Bonjour, comment allez-vous ?
-- Bon après midi, comment allez-vous ?
-- Bonsoir, comment allez-vous ?
+- Bonjour, comment allez-vous ? (au matin)
+- Bon après midi, comment allez-vous ? (durant la journée)
+- Bonsoir, comment allez-vous ? (au soir)
 
-Au niveau code, je vais écrirer ces 3 instructions dans le code, ces 3 instructions seront englobées dans des conditions pour executer la bonne et exclure les autres. 
+Comment vais-je faire pour y arriver ?
+
+Tout simplement, dans un premier temps je vais écrire ces 3 instructions et dans un second temps je vais utiliser la puissance des conditions pour executer la bonne et ne pas prendre en compte les autres.
+
 
 ### Exemple 2
 

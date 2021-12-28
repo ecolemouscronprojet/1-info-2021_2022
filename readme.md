@@ -2,8 +2,6 @@
 
 ## Cours
 
-, création de variables, affectation de variables, les types primitifs de variables …
-
  1. [Installation de l'environnement de travail](documentation/cours/1.md)
 
  2. [Ma première page, imprimez une instruction à l'écran](documentation/cours/ma_premiere_page.md)
