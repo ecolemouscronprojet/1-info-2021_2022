@@ -128,7 +128,7 @@ A l'intérieur d'une condition `if` ou `else if` on attend une expression qui re
 
 Quand on ajoute une expression dans une condition on va venir en général comparer deux informations, voir même plusieurs informations (voir **Opérateurs logiques**)
 
-## Opérateurs de comparaisons
+### Opérateurs de comparaisons
 
 Voici la liste des opérateurs qui vont nous permettre d'éffectuer des comparaisons et donc renvoyer `true` ou `false`
 
@@ -180,7 +180,7 @@ if($age === 26) { // l'expression renvoie true, la condition est
 ```
 
 
-## Opérateurs de logiques
+### Opérateurs de logiques
 
 Dans certains cas, nous sommes confrontés à comparer plus d'une seule expression et pour cela nous allons utiliser des **opérateurs logiques**
 
