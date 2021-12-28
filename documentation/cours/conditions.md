@@ -1,7 +1,7 @@
 # Les conditions
 
 Les conditions sont des instructions qui vont vous permettre d'executer ou non un bloc d'instruction(s).
-Si la condition est vraie on execute le code, sinon passe à la suite sans executer les instructions se trouvant à l'intérieur du bloc
+Si la condition est vraie on execute le code, sinon on passe à la suite sans executer les instructions se trouvant à l'intérieur du bloc
 
 
 ## Cas d'utilisation dans une application
@@ -123,9 +123,11 @@ Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, 
 
  ## Les expressions à l'intérieur des conditions
 
-A l'intérieur d'une condition `if` ou `else if` on attend une expression qui renvoie soit `true` ou `false`, dans les exemples précédents nous avons directement indiqué la valeur `true` ou `false`par souci de facilité, mais cela ne doit jamais arriver car le code n'est pas dynamique.
+A l'intérieur d'une condition `if` ou `else if` on attend une expression qui renvoie soit `true` ou `false`, dans les exemples précédents nous avons directement indiqué la valeur `true` ou `false` par souci de facilité, mais cela ne doit jamais arriver car cela ne rend pas le code dynamique (un vrai sera toujours vrai…).
 
-Quand on ajoute une expression dans une condition on va venir en général comparer une information à une autre, voir même plusieurs informations (voir Opérateurs logiques)
+Quand on ajoute une expression dans une condition on va venir en général comparer deux informations, voir même plusieurs informations (voir **Opérateurs logiques**)
+
+## Opérateurs de comparaisons
 
 Voici la liste des opérateurs qui vont nous permettre d'éffectuer des comparaisons et donc renvoyer `true` ou `false`
 
@@ -176,6 +178,49 @@ if($age === 26) { // l'expression renvoie true, la condition est
 
 ```
 
+
+## Opérateurs de logiques
+
+Dans certains cas, nous sommes confrontés à comparer plus d'une seule expression et pour cela nous allons utiliser des **opérateurs logiques**
+
+
+| Opérateur de logique  |  Définition |
+|------|----------------------------------------------|
+|  &&  |  ET                                          |
+|  ||  |  OU                                          |
+|  and |  ET                                          |
+|  or  |  OU                                          |
+|  xor |  une des deux expressions doit être vraie pas les deux|
+|  !  |  le contraire, à placer au debut de l'expression              |
+
+:warning: Le fait qu'il y ait deux **ou** et deux **et** est parce que certains auront une priorité plus importante que l'autre.
+
+
+Exemples 
+
+```php
+$age = 25;
+
+// si on souhaite vérifier qu'une personne a entre 18 et 25 ans pour bénéficier de réductions sur le train
+
+if($age <= 25 && $age >= 18){
+    echo 'Vous avez une réduction';
+} else {
+    echo 'Vous n\'avez pas de réduction';
+}
+
+
+// Vérifier si une voiture est sportive
+
+$marque = 'ferrari';
+
+if($marque == 'ferrari' || $marque == 'bugatti') {
+    echo 'Vous avez une voiture de sport';
+} else {
+    echo 'Vous avez une voiture normale';
+}
+
+```
 
 
 ## Opérateur ternaire
