@@ -119,7 +119,7 @@ Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, 
  - `else if`(optionel)
  - `else`(optionel)
 
- Qans vous écrivez un bloc contenant une condition, vous ne pouvez avoir qu'une seule fois le `if` et le `else` par contre le `elseif` peut être présent plusieurs fois, si c'est le cas, vous pouvez remplacer la condition par un `switch`
+ Quand vous écrivez un bloc contenant une condition, vous ne pouvez avoir qu'une seule fois le `if` et le `else` par contre le `elseif` peut être présent plusieurs fois, si c'est le cas, vous pouvez remplacer la condition par un `switch`
 
 
  ## Les expressions à l'intérieur des conditions
