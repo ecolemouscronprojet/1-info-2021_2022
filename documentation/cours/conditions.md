@@ -14,7 +14,7 @@ Une personne arrive sur mon site web, en fonction de l'heure à laquelle il se c
 - Bon après midi, comment allez-vous ? (durant la journée)
 - Bonsoir, comment allez-vous ? (au soir)
 
-Comment vais-je faire pour y arriver ?
+Comment vais-je procéder pour y arriver ?
 
 Tout simplement, dans un premier temps je vais écrire ces 3 instructions et dans un second temps je vais utiliser la puissance des conditions pour executer la bonne et ne pas prendre en compte les autres.
 
@@ -22,12 +22,12 @@ Tout simplement, dans un premier temps je vais écrire ces 3 instructions et dan
 ### Exemple 2
 
 Une personne se rend sur mon site de vente d'alcool, avant de poursuivre sur le site, il faut lui demander s'il est majeur ou pas.
-A sa première connexion, une popup s'affiche pour lui demander lui poser la question, en fonction de la réponse nous allons executer l'instruction adéquat
+A sa première connexion, une popup s'affiche pour lui poser la question, en fonction de la réponse nous allons executer l'instruction adéquat
 
 - s'il est majeur on lui affiche le site
-- s'il n'est pas majeur on le redirige vers le site précédemment consulté
+- s'il n'est pas majeur on le redirige vers le site précédent
 
-Même principe que pour l'exemple précédent, ces deux instructions vont se trouver dans le code, mais une seule des deux sera executé en fonction de la réponse.
+Même principe que pour l'exemple précédent, ces deux instructions vont se trouver dans le code, mais une seule des deux sera executé en fonction de la réponse que l'utilisateur aura indiquée.
 
 
 ## Comment ça fonctionne
@@ -38,7 +38,7 @@ Dans l'exemple ci-dessous **la condition** est respectée ce qui implique que to
 
 
 
-Dans l'exemple ci-dessous **la condition** n'est pas respectée ce qui implique que les instructions se trouvant à l'intérieur du bloc conditions ne seront pas executées, seule celles à l'exterieur du bloc le seront.
+Dans l'exemple ci-dessous **la condition** n'est pas respectée ce qui implique que les instructions se trouvant à l'intérieur du bloc condition ne seront pas executées, seule celles à l'exterieur du bloc le seront.
 
 ![Condition vraie](images/condition-2.jpg )
 
