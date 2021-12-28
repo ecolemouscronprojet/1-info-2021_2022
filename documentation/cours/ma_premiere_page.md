@@ -1,7 +1,6 @@
 # Ma première page
 
 
-// instruction ;
 
 
 

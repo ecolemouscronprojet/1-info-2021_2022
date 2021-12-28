@@ -92,17 +92,16 @@ echo $nb1 / 5; // résultat 4
 echo 8 / 5; // résultat 3
 ```
 
-:information_desk_person: Les opérations précédentes en aucun cas sont venus altérer le contenu de chaque variable
+:information_desk_person: Les opérations effectuées précédentes en aucun cas sont venus altérer le contenu de chaque variable le fait de faire `$nb1/4`effecue un calcul et non une affectation.
 
 # Opérateur arithmétique modifiant la valeur d'une variable
 
 Ici nous effectuons des opérations qui vont réellement modifier la valeur des variables
 
-
-Version longue
 ```php
 // ADDITION
 $nb1 = 10;
+// Ici, on réaffecte une valeur à une variable en prenant sa valeur + 5 ce qui donne 15
 $nb1 = $nb1 + 5;
 
 echo $nb1; // résultat 15
@@ -112,22 +111,34 @@ $nb2 = 10;
 $nb2 = $nb2 - 5;
 
 echo $nb2; // résultat 5
-.
+…
 ```
-Version courte
+
+# Opérateurs combinés
+
+Vous avez la possibilité d'utiliser des opérateurs combinés (opérateur arithmétique + affectation)
+
+-  += 
+-  /=
+-  *=
+-  -=
+
+Exemple
+
 ```php
-// ADDITION
+// ADDITION VERSION COURTE
 $nb1 = 10;
 $nb1 += 5;
 
 echo $nb1; // résultat 15
 
-// SOUSTRACTION
-$nb2 = 10;
-$nb2 -= 5;
+// ADDITION VERSION LONGUE
+$nb1 = 10;
+$nb1 = $nb1 + 5;
 
-echo $nb2; // résultat 5
-.
+echo $nb1; // résultat 15
+
+
 ```
 
 

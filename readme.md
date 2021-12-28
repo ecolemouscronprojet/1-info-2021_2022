@@ -14,12 +14,10 @@
 
  5. [Concaténation](documentation/cours/concatenation.md)
 
-
  6. [Opérateurs arithmétiques](documentation/cours/operateurs_arithmetiques.md)
 
- 3. [Concaténations, additions, soustractions, multiplications, divisions et modulo](documentation/cours/3.md)
 
- 4. [Les conditions](documentation/cours/4.md)
+ 4. [Les conditions](documentation/cours/conditions.md)
 
  5. [l'instruction switch, tableau PHP et variable globale $_GET](documentation/cours/5.md)
  - [Les tableaux](documentation/cours/tableau_1.md)
