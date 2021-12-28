@@ -278,8 +278,8 @@ switch($note) {
 ```
 
 
-:warning: Attention pour qu'une condition considère qu'une expression est vraie si elle renvoie les valeurs suivantes : `true`, `string`, `int`, `float`. Une condition est fausse si l'expression renvoie les valeurs suivantes : `false`, `0` ou `null`
-
+:warning: Attention une condition est fausse si l'expression à l'intérieur retourne les valeurs suivante: `false`, `0` ou `null``
+Toute autre valeur sera considérée comme vraie.
 
 # EXERCICES
 
