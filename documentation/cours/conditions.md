@@ -121,12 +121,13 @@ Lorsque vous écrivez une condition, vous devez toujours démarrer par un `if`, 
  Qans vous écrivez un bloc contenant une condition, vous ne pouvez avoir qu'une seule fois le `if` et le `else` par contre le `elseif` peut être présent plusieurs fois, si c'est le cas, vous pouvez remplacer la condition par un `switch`
 
 
- ## Expression à l'intérieur d'une condition
+ ## Les expressions à l'intérieur des conditions
 
-A l'intérieur d'une condition `if` ou `else if` on attend une expression qui renvoie soit `true` ou `false`, dans les exemples précédents nous avons directement indiquez la valeur `true` ou `false` pour les exemples, mais cela ne rend pas le code dynamique.
+A l'intérieur d'une condition `if` ou `else if` on attend une expression qui renvoie soit `true` ou `false`, dans les exemples précédents nous avons directement indiqué la valeur `true` ou `false`par souci de facilité, mais cela ne doit jamais arriver car le code n'est pas dynamique.
+
 Quand on ajoute une expression dans une condition on va venir en général comparer une information à une autre, voir même plusieurs informations (voir Opérateurs logiques)
 
-**Voici la liste des opérateurs qui vont nous permettre d'éffectuer des comparaisons et renvoyer `true` ou `false` **
+Voici la liste des opérateurs qui vont nous permettre d'éffectuer des comparaisons et donc renvoyer `true` ou `false`
 
 | Opérateur de comparaison  |  Définition |
 |------|----------------------------------------------|
@@ -149,6 +150,10 @@ $maVariable == $maVariable2; // renvoie false
 $maVariable == 'Hello'; // renvoie true
 $maVariable == 1; // renvoie false
 $maVariable == 10.5; // renvoie false
+
+$nb1 = 20;
+$nb1 > 10; // renvoie true
+$nb1 <= 4; // renvoie false
 ```
 
 :warning: l'exemple précédent va retourner un booléan, mais ne va pas imprimer le résultat à l'écran car on ne lui dit pas de le faire.
@@ -171,6 +176,43 @@ echo $age >= 18 ? 'Majeur' : 'Mineur';
 
 ```
 
+Ce code affichera à l'écran **Majeur**
+
+
+## L'instruction Switch
+
+L'instruction switch permet de remplacer des conditions(`if else if …`) qui vont comparer la même variable.
+
+Exemple de switch
+
+```php
+// note sur 10
+$note = '8';
+
+switch($note) {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+        echo 'Insuffisant';
+    break; // on arrête de parcourir le switch si une correspondance est trouvée
+    case 6:
+    case 7:
+        echo 'Bien';
+    break;
+    case 8:
+    case 9:
+        echo 'Très bien';
+    break;
+    case 10:
+        echo 'Parfait !';
+    break;
+    default:
+        echo 'Note inconnue'; // message par défaut si la note envoyée n'est pas connue
+}
+
+```
 
 
 
