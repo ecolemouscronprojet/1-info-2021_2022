@@ -62,16 +62,42 @@ Dans le premier cas, je décide d'afficher 100 utilisateurs, si je décide en ba
 
 ## BOUCLE WHILE
 
-Exemple 
+Une boucle while se décompose avec le mot clé `while` suivi de parenthèses dans lesquelles on va rajouter une expression devant retourner `true` ou `false` (même fonctionnement que pour les conditions). Tant que l'expression renvoie `true`, on continuera à boucler et executer X fois le code se trouvant à l'intérieur des accolades
 
+### Exemple 
 ```php
-
 while (/* condition */) {
     // instruction à répéter
+    // instruction à répéter
+    // instruction à répéter
 }
-
-
 ```
+
+Généralement, on utilise les boucles `while` quand on ne connait pas le nombre de fois que l'on doit itérer.
+
+### Exemple de boucle while
+
+```php
+$i = 0;
+while ($i < 5) { // condition
+    echo 'bonjour n°' . $i;
+    $i++; // incrémentation 
+}
+```
+
+La condition indique que l'on doit parcourir la boucle tant que `$i` est plus petit que 5, à l'intérieur de la boucle on incrémente `$i`de plus 1 à chaque passage. Le message *bonjour n°x* sera affiché 5 fois.
+
+
+### Exemple de boucle infinie avec while
+
+```php
+while (true) {
+    echo 'message<br>';
+}
+```
+
+Ici la condition est toujours **vraie** ce qui implique que les instructions à l'intérieur de la condition vont se répéter à l'infini (voir faire planter le navigateur);
+
 
 
 

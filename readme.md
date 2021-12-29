@@ -14,12 +14,11 @@
 
  6. [Opérateurs arithmétiques](documentation/cours/operateurs_arithmetiques.md)
 
+ 7. [Les conditions](documentation/cours/conditions.md)
+ 
+ 8. [Les tableaux](documentation/cours/tableau_1.md)
 
- 4. [Les conditions](documentation/cours/conditions.md)
-
- 5. [l'instruction switch, tableau PHP et variable globale $_GET](documentation/cours/5.md)
- - [Les tableaux](documentation/cours/tableau_1.md)
- - [Les boucles](documentation/cours/boucle.md)
+ 9. [Les boucles](documentation/cours/boucle.md)
 
 
 
