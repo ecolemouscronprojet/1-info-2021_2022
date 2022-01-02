@@ -5,7 +5,7 @@ Quand votre environnement de travail est en place (installation de la WSL2 ubunt
 
 ## Création de mon projet
 
-Ouvez votre terminal Ubuntu et lancez les commandes suivzantes:
+Ouvez votre terminal Ubuntu et lancez les commandes suivantes:
 
 :warning:  Attention, vérifiez bien que chaque ligne que vous écrivez ne vous retourne pas une erreur ! si c'est le cas vous devez trouver une solution, copier/coller le message d'erreur dans un moteur de recherche pour voir si quelqu'un a déjà eu le problème et s'il a trouvé une solution.
 
