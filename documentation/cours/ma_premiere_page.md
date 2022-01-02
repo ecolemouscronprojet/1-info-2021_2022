@@ -7,7 +7,7 @@ Quand votre environnement de travail est en place (installation de la WSL2 ubunt
 
 Ouvez votre terminal Ubuntu et lancez les commandes suivantes:
 
-:warning:  Attention, vérifiez bien que chaque ligne que vous écrivez ne vous retourne pas une erreur ! si c'est le cas vous devez trouver une solution, copier/coller le message d'erreur dans un moteur de recherche pour voir si quelqu'un a déjà eu le problème et s'il a trouvé une solution.
+:warning:  Attention, vérifiez bien que chaque ligne que vous écrivez ne vous retourne pas une erreur ! si c'est le cas vous devez trouver une solution, copier/coller le message d'erreur dans un moteur de recherche pour voir si quelqu'un a déjà eu le problème et si une solution a été trouvée.
 
 
 ```console
@@ -26,7 +26,7 @@ foo@bar:~$ code .
 
 La commande `code` permet de démarrer VS code, le `.` permet de dire à VS code ouvre moi le projet dans le repetoire dans lequel je me situe.
 
-:warning: si la commande code n'est pas connue, regardez dans la documentation pour trouver une solution [ici](https://code.visualstudio.com/docs/remote/wsl) 
+:warning: si la commande `code` n'est pas connue, regardez dans la documentation pour trouver une solution [ici](https://code.visualstudio.com/docs/remote/wsl) 
 
 
 
@@ -39,7 +39,7 @@ Lorsque vous êtes dans l'IDE (VS code), cliquez sur la premier icon en haut à 
 
 pourquoi `index.php` ?
 
-- l'extension php pour indiquer que ce fichier est un fichier de type PHP, qu'il contient du code et qu'il la considérer comme tel.
+- l'extension `.php` pour indiquer que le fichier est de type PHP et que le serveur doit l'interpréter comme tel, si vous ne mettez pas l'extension le serveur va rendre le fichier tel quel comme un simple fichier texte
 - `index`, quand vous vous rendez sur un site web par défaut la première page qui est appelé en fonction de la configuration de votre serveur est la page `index`
 
 
