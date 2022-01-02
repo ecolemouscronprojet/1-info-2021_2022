@@ -187,12 +187,12 @@ Dans certains cas, nous sommes confrontés à comparer plus d'une seule expressi
 
 | Opérateur de logique  |  Définition |
 |------|----------------------------------------------|
-|  &&  |  ET                                          |
-|  ||  |  OU                                          |
-|  and |  ET                                          |
-|  or  |  OU                                          |
-|  xor |  une des deux expressions doit être vraie pas les deux|
-|  !  |  le contraire, à placer au debut de l'expression              |
+|  `&&`  |  ET                                          |
+|  `||`  |  OU                                          |
+|  `and` |  ET                                          |
+|  `or`  |  OU                                          |
+|  `xor` |  une des deux expressions doit être vraie pas les deux|
+|  `!`  |  le contraire, à placer au debut de l'expression              |
 
 :warning: Le fait qu'il y ait deux **ou** et deux **et** est parce que certains auront une priorité plus importante que l'autre.
 

@@ -88,8 +88,8 @@ $nb1 = 19;
 $nb2 = 6;
 
 echo $nb1 % $nb2; // résultat 1
-echo $nb1 / 5; // résultat 4
-echo 8 / 5; // résultat 3
+echo $nb1 % 5; // résultat 4
+echo 8 % 5; // résultat 3
 ```
 
 :information_desk_person: Les opérations effectuées précédentes en aucun cas sont venus altérer le contenu de chaque variable le fait de faire `$nb1/4`effecue un calcul et non une affectation.

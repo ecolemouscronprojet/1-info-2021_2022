@@ -10,7 +10,7 @@ Lorsque nous écrivons un code simple, les instructions s'executent de haut en b
 
 Lorsque nous écrivons un code utilisant une boucle, les instructions vont s'executer de haut en bas, dès qu'il arrive en bas, il retourne en haut éxecuter à nouveau les instructions jusqu'a ce que la condition ne soit plus respectée.
 
-![Drag Racing](images/boucle.jpg )
+![Boucle](images/boucle.jpg )
 
 
 ### Exemple n°1
