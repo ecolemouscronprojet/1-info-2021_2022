@@ -193,7 +193,7 @@ function addition($nb1, $nb2){
     return $nb1 + $nb2;
 }
 
-addition(10, 5); // le calcul sera fait et retourné mais pas affiché à l'écran
+addition(10, 5); // le calcul sera fait et retourné mais pas imprimé à l'écran
 $resultat = addition(10, 5); // ici on stocke le résultat dans une variable
 echo $resultat; // affiche 15
 
