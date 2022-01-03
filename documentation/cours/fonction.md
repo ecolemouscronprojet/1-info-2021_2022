@@ -126,7 +126,7 @@ function addition($nb1/* valeur 8 */, $nb2 /* valeur 2 */) {
 ```
 
 
-Maintenant, revenons à l'exemple du début qui était de trouver la longueur de l'hypoténuse d'un triangle, on crée une fonction prenant 2 paramètres qui sont les côtés à l'intérieur de la fonction on effectue le calcul et on imprime le résultat
+Maintenant, revenons à l'exemple du début qui était de trouver la longueur de l'hypoténuse d'un triangle, on crée une fonction prenant 2 paramètres qui sont les côtés, à l'intérieur de la fonction on effectue le calcul et on imprime le résultat
 
 ```php
 function hypotenuse($cote1, $cote2) {
@@ -139,7 +139,7 @@ hypotenuse(3, 4); // affiche 5
 hypotenuse(20, 40); // affiche 44.72
 ```
 
-La logique a été écrite une seule fois et nous pouvons l'utiliser autant que l'on souhaite.
+La logique a été écrite une seule fois et nous pouvons l'utiliser autant de fois que souhaité.
 
 
 
@@ -212,22 +212,13 @@ echo $resultat; // affiche null
 ```
 
 
+## La portée des variables dans une fonction
 
+Les variables déclarées à l'intérieur du fonction 
 
-## La portée des variables
-
-
-Dans l'exemple ci-dessus `$nb1` et `$nb2` sont des variables uniquement disponible à l'intérieur de la fonction **addition** à l'éxtérieur ces variables n'existent pas sont inconnues.
 
 
 ## références
-
-// typer les paramètres
-
-
-
-
-
 
 
 ## fonction récursive
@@ -236,6 +227,21 @@ Dans l'exemple ci-dessus `$nb1` et `$nb2` sont des variables uniquement disponib
 ## fonction disponibles en php
 
 
-## Exemples de fonctions
 
-Fibonacci
+
+# Exercices
+
+## Exercice 1
+
+Réalisez une fonction qui permet de retourner une tranche de nombre, exemple 1 à 10: [1, 2, 3 ,4, 5 , 6, 7, 8, 9, 10]
+
+
+## Exercice 2
+
+Réalisez une fonction qui permet de retourner une table de multiplication
+
+## Exercice 3
+
+Réalisez une fonction qui permet de retourner la suite de Fibonacci en lui passant un nombre de départ et un nombre de fin
+ 
+
