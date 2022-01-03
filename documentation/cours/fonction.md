@@ -126,7 +126,7 @@ function addition($nb1/* valeur 8 */, $nb2 /* valeur 2 */) {
 ```
 
 
-Maintenant, revenons à l'exemple du début qui était de trouver la longueur de l'hypoténuse d'un triangle, on crée une fonction prenant 2 paramètres qui sont les côtés, à l'intérieur de la fonction on effectue le calcul et on imprime le résultat
+Maintenant, revenons à l'exemple du début qui était de trouver la longueur de l'hypoténuse d'un triangle, on crée une fonction prenant 2 paramètres qui correspondent aux 2 côtés, à l'intérieur de la fonction on effectue le calcul et on imprime le résultat
 
 ```php
 function hypotenuse($cote1, $cote2) {
@@ -143,7 +143,7 @@ La logique a été écrite une seule fois et nous pouvons l'utiliser autant de f
 
 
 
-:warning: Lorsque vous appelez une fonction qui attend x paramètre(s), vous devez passer ces x paramètre(s) sinon une erreur s'affichera vous indiquant que le nombre de paramètre(s) n'est pas bon.
+:warning: Lorsque vous appelez une fonction qui attend x paramètre(s), vous devez passer ces x paramètre(s) sinon une erreur s'affichera vous indiquant que le nombre de paramètre(s) attendu(s) est incorrect.
 
 
 ### Typer les paramètres
