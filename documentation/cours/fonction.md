@@ -84,9 +84,9 @@ Hello World
 
 ## Passer des informations à une fonction
 
-Je souhaite créer une fonction additionnant 2 nombres, le problème c'est comment dire à ma fonction les nombres que je souhaite additionner ? :thinking:
+Je souhaite créer une fonction additionnant 2 nombres, le problème c'est comment indiquer à ma fonction les nombres que je souhaite additionner ? :thinking:
 
-Tout simplement en lui passant ces informations en paramètres c-à-d à l'intérieur des parenthèses.
+Tout simplement en les lui passant en paramètres c-à-d à l'intérieur des parenthèses.
 
 Exemple
 
@@ -97,7 +97,6 @@ function addition($nb1, $nb2) {
     echo $nb1 + $nb2;
 }
 
-// déclaration de deux nombres
 $nombre1 = 10;
 $nombre2 = 5;
 
