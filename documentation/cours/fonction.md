@@ -148,7 +148,7 @@ La logique a été écrite une seule fois et nous pouvons l'utiliser autant de f
 
 ### Typer les paramètres
 
-Vous avez la possibilité de typer les paramètres pour sécuriser un peu plus les entrées dans votre fonction.
+Vous avez la possibilité de typer les paramètres pour sécuriser un peu plus les entrées dans vos fonctions.
 
 Exemple
 
