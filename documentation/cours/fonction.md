@@ -183,7 +183,7 @@ Exemple
 
 Une bonne pratique quand on crée une fonction est de renvoyer un résultat et non pas utiliser des `echo` comme nous l'avons fait précédemment.
 
-Le fait de retourner un résultat permet de maitriser l'information que la fonction vous renverra, vous pourrez en faire ce que vous voulez stocker dans une variable, décider de l'afficher à l'écran …
+Le fait de retourner un résultat permet de maitriser l'information que la fonction vous renverra, vous pourrez en faire ce que vous voulez, la stocker dans une variable, décider de l'afficher à l'écran etc…
 
 
 :green_circle: Exemple correct
