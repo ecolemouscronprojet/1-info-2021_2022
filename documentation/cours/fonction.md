@@ -214,7 +214,30 @@ echo $resultat; // affiche null
 
 ## La portée des variables dans une fonction
 
-Les variables déclarées à l'intérieur du fonction 
+Il faut savoir que les variables que vous allez déclarer à l'intérieur ou à l'extérieur d'une fonction on une porté
+
+Une variable déclarée à l'intérieur d'une fonction n'est disponible que dans cette fonction et pas à l'extérieur.
+
+Une variable déclarée à l'extérieur d'une fonction ne sera pas disponible à l'intérieur de la fonction
+
+
+Exemple
+
+```php
+$var1 = 'test';
+
+
+
+function monMessage(){
+    $var2 = 'test2';
+
+    echo $var1; // retourne une erreur car $var1 n'existe pas dans la fonction
+}
+
+
+echo $var2; // retourne une erreur car $var2 existe seulement à l'intérieur de la fonction
+
+```
 
 
 
@@ -237,6 +260,7 @@ Voici quelques exemples
 - **print_r** fonction de débug retournantle contenu d'une variable
 - **isset** fonction vérifiant si une variable existe et est déclarée
 - **empty** fonction vérifiant si une variable n'est pas vide
+- **str_replace** fonction permettant de remplacer des informations par d'autres dans une chaine de caractères
 - **strpos** fonction cherchant la position de la première occurance d'une chaine de caractères
 - **strlen** fonction retournant la taille d'une chaine de caractères
 - **count** fonction retournant la taille d'un tableau
