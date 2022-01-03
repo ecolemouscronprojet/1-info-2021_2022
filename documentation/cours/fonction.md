@@ -78,7 +78,7 @@ Hello World
 ```
 
 
-:exclamation: les fonctions sont insensibles à la casse, c-à-d que `helloWorld()` et `HELLOWORLD()` vont appeler la même fonction. 
+:exclamation: les fonctions sont insensibles à la casse, c-à-d que `helloWorld()` et `HELLOWORLD()` font un appel à la même fonction. 
 
 
 
