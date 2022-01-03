@@ -86,13 +86,13 @@ Hello World
 
 Je souhaite créer une fonction additionnant 2 nombres, le problème c'est comment indiquer à ma fonction les nombres que je souhaite additionner ? :thinking:
 
-Tout simplement en les lui passant en paramètres c-à-d à l'intérieur des parenthèses.
+Tout simplement en les lui passant en paramètre c-à-d à l'intérieur des parenthèses.
 
 Exemple
 
 ```php
-// Déclaration de la fonction addition
-// nous indiquons que cette fonction prend 2 paramètres $nb1 et $nb2
+// déclaration de la fonction addition
+// qui prend 2 paramètres $nb1 et $nb2
 function addition($nb1, $nb2) {
     echo $nb1 + $nb2;
 }
