@@ -39,7 +39,7 @@ Lorsque vous êtes dans l'IDE (VS code), cliquez sur la premier icon en haut à 
 
 pourquoi `index.php` ?
 
-- l'extension `.php` pour indiquer que le fichier est de type PHP et que le serveur doit l'interpréter comme tel, si vous ne mettez pas l'extension le serveur va rendre le fichier tel quel comme un simple fichier texte
+- l'extension `.php` pour indiquer que le fichier est de type PHP et que le serveur doit l'interpréter comme tel, si vous ne mettez pas l'extension le serveur va rendre le fichier tel quel comme un simple fichier te xte
 - `index`, quand vous vous rendez sur un site web par défaut la première page qui est appelé en fonction de la configuration de votre serveur est la page `index`
 
 
