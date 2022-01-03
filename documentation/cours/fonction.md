@@ -209,7 +209,7 @@ function addition($nb1, $nb2){
 }
 
 addition(10, 5); // affiche le résultat à l'écran  même si on ne le souhaite pas
-$resultat = addition(10, 5); // imprime le résultat à l'écran (non voulu) et n'affecte pas le résultat à la variable $result
+$resultat = addition(10, 5); // imprime le résultat à l'écran (non voulu) et n'affecte pas de valeur à la variable $resultat
 echo $resultat; // affiche null
 ```
 
