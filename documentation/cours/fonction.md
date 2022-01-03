@@ -126,15 +126,90 @@ function addition($nb1/* valeur 8 */, $nb2 /* valeur 2 */) {
 ```
 
 
-// appel
+Maintenant, revenons à l'exemple du début qui était de trouver la longueur de l'hypoténuse d'un triangle, on crée une fonction prenant 2 paramètres qui sont les côtés à l'intérieur de la fonction on effectue le calcul et on imprime le résultat
+
+```php
+function hypotenuse($cote1, $cote2) {
+    $calcul = $cote1 * $cote1 + $cote2 * $cote2;
+    $reponse = sqrt($calcul);
+    echo $reponse;
+}
+
+hypotenuse(3, 4); // affiche 5
+hypotenuse(20, 40); // affiche 44.72
+```
+
+La logique a été écrite une seule fois et nous pouvons l'utiliser autant que l'on souhaite.
 
 
 
-## Une fonction renvoie un résultat
-
-Une des bonnes pratique à avoir quand on utilise crée une fonctioj
+:warning: Lorsque vous appelez une fonction qui attend x paramètre(s), vous devez passer ces x paramètre(s) sinon une erreur s'affichera vous indiquant que le nombre de paramètre(s) n'est pas bon.
 
 
+### Typer les paramètres
+
+Vous avez la possibilité de typer les paramètres pour sécuriser un peu plus les entrées dans votre fonction.
+
+Exemple
+
+```php
+function test(string $var1, int $var2)
+```
+
+Ici le `$var1` doit être de type **string** et `$var2` doit être de type **int**
+
+
+### Paramètres avec une valeur par défaut
+
+Vous avez la possibilité d'indiquer une valeur pas défaut à vos paramètres, si vous ne les surchargez pas pendant l'appel à la fonction ils prendront leur valeur par défaut.
+
+Exemple
+
+```php
+  function test($var1 = 'default' , $var2 = 1){
+      echo $var1 . ' ' . $var2;
+  }
+
+  test(); // affiche 'default 1'
+  test('Salut', 8); // affiche 'Salut 8'
+
+```
+
+
+
+## Renvoyer un résultat
+
+Une bonne pratique quand on crée une fonction est de renvoyer un résultat et non pas utiliser des `echo` comme nous l'avons fait précédemment.
+
+Le fait de retourner un résultat permet de maitriser l'information que la fonction vous renverra, vous pourrez en faire ce que vous voulez stocker dans une variable, décider de l'afficher à l'écran …
+
+
+:green_circle: Exemple correct
+
+```php
+function addition($nb1, $nb2){
+    return $nb1 + $nb2;
+}
+
+addition(10, 5); // le calcul sera fait et retourné mais pas affiché à l'écran
+$resultat = addition(10, 5); // ici on stocke le résultat dans une variable
+echo $resultat; // affiche 15
+
+echo addition(18, 12); // affiche 30
+```
+
+:red_circle: Exemple à ne pas reproduire
+
+
+```php
+function addition($nb1, $nb2){
+    echo $nb1 + $nb2;
+}
+
+addition(10, 5); // affiche le résultat à l'écran 
+$resultat = addition(10, 5); // ne stocke rien dans la variable et affiche le résultat à l'écran
+echo $resultat; // affiche null
+```
 
 
 
@@ -162,3 +237,5 @@ Dans l'exemple ci-dessus `$nb1` et `$nb2` sont des variables uniquement disponib
 
 
 ## Exemples de fonctions
+
+Fibonacci
