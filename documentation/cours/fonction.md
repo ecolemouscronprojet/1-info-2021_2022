@@ -153,7 +153,9 @@ Vous avez la possibilité de typer les paramètres pour sécuriser un peu plus l
 Exemple
 
 ```php
-function test(string $var1, int $var2)
+function test(string $var1, int $var2){
+    …
+}
 ```
 
 Ici le `$var1` doit être de type **string** et `$var2` doit être de type **int**
