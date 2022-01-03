@@ -107,9 +107,9 @@ addition(8, 2) // affiche le resultat  10
 ```
 
 
-:sassy_man: Comment ça fonctionne ? quand nous executons `addition($nombre1, $nombre2)` c'est comme ci nous executions cela `addition(10, 5)`, les informations de l'appels vont venir s'interfacer à celle de la fonction :
+:sassy_man: Comment ça fonctionne ? quand nous executons `addition($nombre1, $nombre2)` les informations de l'appels (`$nombre1`, `$nombre2` ou 8, 2) vont venir s'interfacer à celle de la fonction (`$nb1`, `$nb2`):
 
-Dans l'appel à la fonction `addition($nombre1, $nombre2)`  cela donnera 
+Dans l'appel à la fonction `addition($nombre1, $nombre2)`  :arrow_right: `$nb1` vaudra **10** et `$nb2` vaudra **5**
 
 ```php
 function addition($nb1/* valeur 10 */, $nb2 /* valeur 5 */) {
@@ -117,7 +117,7 @@ function addition($nb1/* valeur 10 */, $nb2 /* valeur 5 */) {
 }
 ```
 
-Dans l'appel à la fonction `addition(8, 2)`  cela donnera 
+Dans l'appel à la fonction `addition(8, 2)` :arrow_right: `$nb1` vaudra **8** et `$nb2` vaudra **2**
 
 ```php
 function addition($nb1/* valeur 8 */, $nb2 /* valeur 2 */) {
@@ -126,7 +126,7 @@ function addition($nb1/* valeur 8 */, $nb2 /* valeur 2 */) {
 ```
 
 
-:sassy_man: Vous pouvez passer 0 à X paramètres à votre fonction
+// appel
 
 
 
