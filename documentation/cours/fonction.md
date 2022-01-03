@@ -107,7 +107,7 @@ addition($nombre1, $nombre2)  // affiche le resultat  15
 addition(8, 2) // affiche le resultat  10
 ```
 
-Dans l'exemple ci-dessus `$nb1` et `$nb2` seront des variables uniquement disponible à l'intérieur de la fonction à l'extérieur ces varaibles n'existent pas.
+Dans l'exemple ci-dessus `$nb1` et `$nb2` sont des variables uniquement disponible à l'intérieur de la fonction **addition** à l'éxtérieur ces variables n'existent pas sont inconnues.
 
 
 
