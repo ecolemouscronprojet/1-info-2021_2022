@@ -61,7 +61,7 @@ function helloWorld() {
 
 ## Appeler une fonction
 
-Pour appeler une fonction, il faut écrire le nom de celle-ci suivi des parenthèses et paramètre(s) s'il y en a.
+Après avoir déclaré notre fonction, nous avons besoin de l'appeler pour cela il faut écrire le nom de celle-ci suivi des parenthèses et paramètre(s) s'il y en a.
 
 Exemple
 
