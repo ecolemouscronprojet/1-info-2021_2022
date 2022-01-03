@@ -20,7 +20,7 @@
 
  9. [Les boucles](documentation/cours/boucle.md)
 
-
+ 10. [Les fonctions](documentation/cours/fonction.md)
 
 
 
