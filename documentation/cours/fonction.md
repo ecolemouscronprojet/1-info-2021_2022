@@ -40,7 +40,7 @@ Le résultat: **44.72**.
 
 :warning: Un développeur ce n'est une personne faineante qui a la volonté d'écrire le moins de code possible ? :thinking:
 
-Évidemment que oui ! Ici nous nous rendons compte que nous avons écrit à peu de chose près 2 fois le même code, il serait peut être plus judicieux d'utiliser un système qui permette d'embarquer ce code, de le délivrer à chaque fois que l'on en a besoin et c'est la que les fonctions viennent à notre secours !
+Évidemment que oui ! Ici nous nous rendons compte que nous avons écrit à peu de chose près 2 fois le même code, il serait peut être plus judicieux d'utiliser un système qui permette d'embarquer ce code et de le délivrer à chaque fois que l'on en a besoin ! C'est la que les fonctions viennent à notre secours !
 
 
 ## Déclarer mes propres fonctions
