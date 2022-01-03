@@ -275,7 +275,7 @@ Voici quelques exemples
 
 ## Exercice 1
 
-Réalisez une fonction qui permet de retourner une tranche de nombre, exemple 1 à 10: [1, 2, 3 ,4, 5 , 6, 7, 8, 9, 10]
+Réalisez une fonction qui permet de retourner une tranche de nombres, exemple 1 à 10: [1, 2, 3 ,4, 5 , 6, 7, 8, 9, 10]
 
 
 ## Exercice 2
