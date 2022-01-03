@@ -216,7 +216,7 @@ echo $resultat; // affiche null
 
 ## La portée des variables dans une fonction
 
-Il faut savoir que les variables que vous allez déclarer à l'intérieur ou à l'extérieur d'une fonction ont une porté
+Il faut savoir que les variables que vous allez déclarer à l'intérieur ou à l'extérieur d'une fonction ont une portée
 
 Une variable déclarée à l'intérieur d'une fonction n'est disponible que dans cette fonction et pas à l'extérieur.
 
