@@ -143,7 +143,7 @@ La logique a été écrite une seule fois et nous pouvons l'utiliser autant de f
 
 
 
-:warning: Lorsque vous appelez une fonction qui attend x paramètre(s), vous devez passer ces x paramètre(s) sinon une erreur s'affichera vous indiquant que le nombre de paramètre(s) attendu(s) est incorrect.
+:warning: Lorsqu'une fonction attend X paramètre(s), par défaut ces paramètres sont obligatoire, vous devez lors de l'appel à celle-ci specifier le bon nombre de paramètre(s)
 
 
 ### Typer les paramètres
