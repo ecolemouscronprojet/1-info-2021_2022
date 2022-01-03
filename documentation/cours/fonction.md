@@ -107,12 +107,29 @@ addition($nombre1, $nombre2)  // affiche le resultat  15
 addition(8, 2) // affiche le resultat  10
 ```
 
+
+:sassy_man: Comment ça fonctionne ? quand nous executons `addition($nombre1, $nombre2)` c'est comme ci nous executions cela `addition(10, 5)`, les informations de l'appels vont venir s'interfacer à celle de la fonction :
+
+Dans l'appel à la fonction `addition($nombre1, $nombre2)`  cela donnera 
+
+```php
+function addition($nb1/* valeur 10 */, $nb2 /* valeur 5 */) {
+    echo $nb1 + $nb2; // 10 + 5 = 15
+}
+```
+
+Dans l'appel à la fonction `addition(8, 2)`  cela donnera 
+
+```php
+function addition($nb1/* valeur 8 */, $nb2 /* valeur 2 */) {
+    echo $nb1 + $nb2; // 8 + 2 = 10
+}
+```
+
+
+
+
 Dans l'exemple ci-dessus `$nb1` et `$nb2` sont des variables uniquement disponible à l'intérieur de la fonction **addition** à l'éxtérieur ces variables n'existent pas sont inconnues.
-
-
-
-
-`addition($nombre1, $nombre2)` imprimera le résultat **15** à l'écran, ce qu'il faut savoir, c'est que `$nombre1` s'interfacera sous la variable `$nb1` à l'intérieur de la fonction et la même chose pour le `$nombre2` qui sera `$nb2` à l'intérieur de la fonction
 
 
 
