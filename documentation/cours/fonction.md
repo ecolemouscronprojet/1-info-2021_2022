@@ -107,7 +107,7 @@ addition(8, 2) // affiche le resultat  10
 ```
 
 
-:sassy_man: Comment ça fonctionne ? quand nous executons `addition($nombre1, $nombre2)` les informations de l'appels (`$nombre1`, `$nombre2` ou 8, 2) vont venir s'interfacer à celle de la fonction (`$nb1`, `$nb2`):
+:sassy_man: Comment ça fonctionne ? quand nous executons `addition($nombre1, $nombre2)` les informations de l'appel (`$nombre1`, `$nombre2` ou 8, 2) vont venir s'interfacer à celle de la fonction (`$nb1`, `$nb2`):
 
 Dans l'appel à la fonction `addition($nombre1, $nombre2)`  :arrow_right: `$nb1` vaudra **10** et `$nb2` vaudra **5**
 
