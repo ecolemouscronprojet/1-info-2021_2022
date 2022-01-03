@@ -218,13 +218,31 @@ Les variables déclarées à l'intérieur du fonction
 
 
 
-## références
+## Références
+// ATTENTE
+ 
+## Fonction récursive
+
+// ATTENTE
+
+## Fonction disponibles en PHP
+
+PHP fournit un ensemble de fonctions qui vont nous permettre de code plus rapidement :smile:
+
+Avant de développer votre propore fonction vérifier si PHP ne le founit pas déjà !
+
+Voici quelques exemples
+
+- **var_dump** fonction de débug retournant en détail le contenu d'une variable
+- **print_r** fonction de débug retournantle contenu d'une variable
+- **isset** fonction vérifiant si une variable existe et est déclarée
+- **empty** fonction vérifiant si une variable n'est pas vide
+- **strpos** fonction cherchant la position de la première occurance d'une chaine de caractères
+- **strlen** fonction retournant la taille d'une chaine de caractères
+- **count** fonction retournant la taille d'un tableau
+- **array_push** fonction ajoutant un élémant dans un tableau
 
 
-## fonction récursive
-
-
-## fonction disponibles en php
 
 
 
