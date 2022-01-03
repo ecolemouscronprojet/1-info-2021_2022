@@ -99,10 +99,10 @@ function addition($nb1, $nb2) {
 $nombre1 = 10;
 $nombre2 = 5;
 
-// appel de la fonction avec des variables
+// appel de la fonction en lui passant en paramètre des variables
 addition($nombre1, $nombre2)  // affiche le resultat  15
 
-// appel de la fonction avec des nombres entier
+// appel de la fonction en lui passant en paramètre des valeurs
 addition(8, 2) // affiche le resultat  10
 ```
 
