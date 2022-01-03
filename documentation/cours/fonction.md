@@ -91,8 +91,7 @@ Tout simplement en les lui passant en paramètre c-à-d à l'intérieur des pare
 Exemple
 
 ```php
-// déclaration de la fonction addition
-// qui prend 2 paramètres $nb1 et $nb2
+// déclaration de la fonction addition qui prend en compte 2 paramètres $nb1 et $nb2
 function addition($nb1, $nb2) {
     echo $nb1 + $nb2;
 }
@@ -127,9 +126,7 @@ function addition($nb1/* valeur 8 */, $nb2 /* valeur 2 */) {
 ```
 
 
-
-
-Dans l'exemple ci-dessus `$nb1` et `$nb2` sont des variables uniquement disponible à l'intérieur de la fonction **addition** à l'éxtérieur ces variables n'existent pas sont inconnues.
+:sassy_man: Vous pouvez passer 0 à X paramètres à votre fonction
 
 
 
@@ -145,7 +142,7 @@ Une des bonnes pratique à avoir quand on utilise crée une fonctioj
 ## La portée des variables
 
 
-
+Dans l'exemple ci-dessus `$nb1` et `$nb2` sont des variables uniquement disponible à l'intérieur de la fonction **addition** à l'éxtérieur ces variables n'existent pas sont inconnues.
 
 
 ## références
