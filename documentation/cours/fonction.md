@@ -101,10 +101,10 @@ $nombre1 = 10;
 $nombre2 = 5;
 
 // appel de la fonction avec des variables
-addition($nombre1, $nombre2) 
+addition($nombre1, $nombre2)  // affiche le resultat  15
 
 // appel de la fonction avec des nombres entier
-addition(8, 2) // affichera le resultat  10
+addition(8, 2) // affiche le resultat  10
 ```
 
 Dans l'exemple ci-dessus `$nb1` et `$nb2` seront des variables uniquement disponible à l'intérieur de la fonction à l'extérieur ces varaibles n'existent pas.
