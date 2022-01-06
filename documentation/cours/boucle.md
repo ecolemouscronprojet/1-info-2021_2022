@@ -256,6 +256,8 @@ Dès que l'instruction `continue`, elle passe directement au niveau de la réit�
 
 ### Exemples de boucles infinies
 
+Voici deux exemples de boucles infinies
+
 ```php
 while (true) {
     echo 'message<br>';
