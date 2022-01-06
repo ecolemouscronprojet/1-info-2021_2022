@@ -236,18 +236,16 @@ foreach($users as $user) {
 
 L'instruction `continue` permet de sauter des instructions à l'intérieur du boucle.
 
-Exemple, je souhaite afficher les nombres de 1 à 10, mais ne pas afficher le nombre égale à 4
+Pour donner un exemple concret, je souhaite afficher les nombres de 1 à 10, mais ne pas afficher le nombre égale à 4.
 
 ```php
-
-for($i=1;$i<=10;$i++) {
-    if($i=== 4){
+for ($i=1;$i<=10;$i++) {
+    if ($i=== 4){
         continue;
     }
 
     echo $i . '<br>';
 }
-
 ```
 
 Dès que l'instruction `continue`, elle passe directement au niveau de la réitération de la boucle sans exécuter les instructions qui étaient plus bas. 

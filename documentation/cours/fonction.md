@@ -287,5 +287,27 @@ Réalisez une fonction qui permet de retourner une table de multiplication
 ## Exercice 3
 
 Réalisez une fonction qui permet de retourner la suite de Fibonacci en lui passant un nombre de départ et un nombre de fin
+
+
+**Aide**
+
+```php
+function fibonacci($min, $max) {
+ // Initialisation tableau vide
+
+ // debut de la boucle
+
+    // début condition si le nombre est compris entre $min et $max
+        // j'alimente le tableau
+    // fin de continue
+
+ // fin de la boucle
+
+
+ // retourner le tableau
+}
+
+```
+
  
 
