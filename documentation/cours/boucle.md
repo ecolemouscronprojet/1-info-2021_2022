@@ -99,6 +99,9 @@ Ici la condition est toujours **vraie** ce qui implique que les instructions à 
 
 ## BOUCLE  DO WHILE
 
+La boucle `do while` fonctionne exactement de la même façon que la boucle `while` mais avec un petit quelque chose en plus !
+Vous passez forcément au moins une fois dans la boucle même si la condition n'est pas respectée.
+
 ```php
 do {
 
@@ -106,9 +109,17 @@ do {
 while (/* condition */)
 ```
 
+:information_desk_person: Pour info cette boucle est très peu utilisée
+
 ## FOR
 La boucle `for` est a utiliser si vous savez le nombre de fois que vous souhaitez itérer, exemple je souhaite afficher 100X le même message.
 
+
+
+la boucle for prend en compte 3 paramètres
+ - 1. Initialisation
+ - 2. Condition
+ - 3. Incrémentation
 
 ```php
 for(/*initialisation*/;/*condition*/;/*incrementation*/) {
@@ -220,7 +231,7 @@ $users = [
 $total = 0;
 foreach($users as $user) {
     echo 'Bonjour '. $user['prenom'] . '<br>';
-    if($user['civilite'] == 'Monsieur'){
+    if($user['civilite'] == 'Monsieur') {
         $total++;
     }
     if($total == 2) {
@@ -240,7 +251,7 @@ Pour donner un exemple concret, je souhaite afficher les nombres de 1 à 10, mai
 
 ```php
 for ($i=1;$i<=10;$i++) {
-    if ($i=== 4){
+    if ($i=== 4) {
         continue;
     }
 
