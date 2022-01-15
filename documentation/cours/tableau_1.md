@@ -101,6 +101,23 @@ Array
 :information_desk_person: Les éléments dans un tableau sont ordonnés par ordre d'ajout dans le tableau, le dernier élément ajouté se placera toujours à la fin du tableau.
 
 
+## Supprimer des élements d'un tableau
+
+Vous avez la possibilité de supprimer des élements dans un tableau grâce à la fonction `unset`
+
+Exemple, ici je souhaite supprimer Maurice du tableau
+
+```php
+$noms = [
+    'Roger',
+    'Maurice',
+    'Andrew',
+];
+
+unset($noms[1]); // je passe l'élement que je souhaite supprimer, ici l'élement ayant la clé 1 du tableau $noms
+```
+
+
 ## Tableau indexé et tableau associatif
 
 ### Tableau indexé
