@@ -47,7 +47,7 @@ echo $message1 . ' ' . $message2;
 Quand doit-on utiliser des guillemets doubes ou simples ? :shrug:
 
 
-Tout simplement, si la chaine que l'on souhaite englober  de guillemets contient une ou des variable(s), nous allons utiliser les doubles car elles vont intépréter les variables en question.
+Tout simplement, si la chaine que l'on souhaite englober  de guillemets contient une ou des variable(s), nous utiliserons des doubles, car ils viendront interpréter les variables là où les simples vont simplement les considérer comme une chaine de caractère.
 
 Si, au contraire la chaine que l'on souhaite englober ne contient aucune variable, il est préférable d'utiliser des guillemets simples car moins couteux au niveau performance.
 
