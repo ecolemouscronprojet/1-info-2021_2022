@@ -42,3 +42,29 @@ echo $message1 . ' ' . $message2;
 ```
 
 
+## Guillemets doubles ou simples
+
+Quand doit-on utiliser des guillemets doubes ou simples ? :shrug:
+
+
+Tout simplement, si dans la chaine que l'on souhaite englober dans nos guillemets contient une ou des variable(s), nous allons utiliser les doubles car elles vont intépréter ces variables là.
+
+Si, au contraire la chaine que l'on souhaite englober ne contient pas de variable, il est préférable d'utiliser des simples guillemets car moins couteux au niveau performance là où les doubles vont devoir faire des actions en plus pour intépreter les variables les simples vont simplement rendre ce qui est noté.
+
+
+
+```php
+$nom = 'Robert';
+
+ echo 'Bonjour $nom <br>';
+ echo "Bonjour $nom <br>";
+```
+
+Résultat
+
+```html
+Bonjour $nom
+Bonjour Robet
+```
+
+
