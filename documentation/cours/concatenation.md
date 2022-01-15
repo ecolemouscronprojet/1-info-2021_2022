@@ -71,9 +71,9 @@ Bonjour Robet
 
 ## Echapper caractères speciaux
 
-Il peut arriver que dans une chaine de caractère vous ayez plusieurs fois des guillemets qui se presente.
+Il peut arriver que dans une chaine de caractère vous ayez plusieurs fois des guillemets qui se presentent.
 
-Pour éviter de rentrer en conflit ac les guillemets qui engloble la chaine, vous allez être amené à échapper cette guillement avec un backslash
+Pour éviter de rentrer en conflit avec les guillemets qui engloble la chaine, vous allez être amené à échapper cette guillement avec un backslash
 
 Exemple:
 
