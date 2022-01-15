@@ -78,9 +78,9 @@ Pour éviter de rentrer en conflit avec les guillemets qui engloble la chaine, v
 Exemple:
 
 ```php
-$message = 'ma maison n\'est pas mauve'; // icc nous venons d'échapper le guillement
+$message = 'ma maison n\'est pas mauve'; // ici nous venons d'échapper le guillement
 
-$message = 'ma maison n'est pas mauve'; // ici nous n'échappons rien une erreur sera lancée
+$message = 'ma maison n'est pas mauve'; // ici nous n'échappons, rien une erreur sera lancée
 
 ```
 
