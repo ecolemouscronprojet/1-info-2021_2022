@@ -73,7 +73,7 @@ Bonjour Robet
 
 Il peut arriver que dans une chaine de caractère vous ayez plusieurs fois des guillemets qui se presentent.
 
-Pour éviter de rentrer en conflit avec les guillemets qui engloble la chaine, vous allez être amené à échapper cette guillement avec un backslash
+Pour éviter de rentrer en conflit avec les guillemets qui engloble la chaine, vous allez être amené à échapper cet guillement avec un backslash
 
 Exemple:
 
