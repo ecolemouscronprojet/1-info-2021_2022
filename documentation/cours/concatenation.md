@@ -52,6 +52,8 @@ Tout simplement, si la chaine que l'on souhaite englober  de guillemets contient
 Si, au contraire la chaine que l'on souhaite englober ne contient aucune variable, il est préférable d'utiliser des guillemets simples car moins couteux au niveau performance.
 
 
+Exemple:
+
 ```php
 $nom = 'Robert';
 
@@ -64,6 +66,22 @@ Résultat
 ```html
 Bonjour $nom
 Bonjour Robet
+```
+
+
+## Echapper une chaine de caractère
+
+Il peut arriver que dans une chaine de caractère vous ayez plusieurs fois des guillemets qui se presente.
+
+Pour éviter de rentrer en conflit ac les guillemets qui engloble la chaine, vous allez être amené à échapper cette guillement avec un backslash
+
+Exemple:
+
+```php
+$message = 'ma maison n\'est pas mauve'; // icc nous venons d'échapper le guillement
+
+$message = 'ma maison n'est pas mauve'; // ici nous n'échappons rien une erreur sera lancée
+
 ```
 
 
