@@ -69,7 +69,7 @@ Bonjour Robet
 ```
 
 
-## Echapper une chaine de caractère
+## Echapper caractères speciaux
 
 Il peut arriver que dans une chaine de caractère vous ayez plusieurs fois des guillemets qui se presente.
 
